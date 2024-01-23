@@ -2,7 +2,7 @@
 
 ### Overview
 
-Welcome to the JavaScript Mastery Roadmap! In this exciting journey, you're set to become a master in JavaScript by exploring the language from its fundamentals to advanced topics. This roadmap will guide you through a comprehensive learning path, ensuring you gain a solid understanding of JavaScript and its applications.
+Welcome to the exciting journey of mastering JavaScript! In this adventure, my plan is to learn, practice, and solve problems in JavaScript because it's my favorite language. By the end of 2024, I aim to be a JavaScript master. Let's enjoy the process, overcome challenges, and become true experts in JavaScript! 🚀
 
 ## All 30 topics with index number
 
