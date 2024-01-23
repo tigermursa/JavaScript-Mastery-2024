@@ -20,3 +20,4 @@ const = after ES6 in 2015 + block-scoped + none hoisted + can't be update
 9. array == done;
 10. push pop shift un-shift splice == done;
 11. objects == done;
+12. anonymous function == pending;
