@@ -4,36 +4,63 @@
 
 Welcome to the JavaScript Mastery Roadmap! In this exciting journey, you're set to become a master in JavaScript by exploring the language from its fundamentals to advanced topics. This roadmap will guide you through a comprehensive learning path, ensuring you gain a solid understanding of JavaScript and its applications.
 
-## All topics with index number
+## All 30 topics with index number
 
-1. Variables , var let const
+### Basic
+
+1. Variables: var, let, const
 2. Data types
-3. primitive vs reference
-4. conditional operator
-5. for & while loop
-6. normal function
-7. arrays
-8. objects
-9. some popular array methods
-10. anonymous function
-11. window object
-12. browser context api
-13. stack
-14. heap-memory
-15. execution context
-16. lexical environment
+3. Primitive vs Reference
+4. Conditional operator
+5. For & While loop
+6. Normal function
+7. Arrays
+8. Objects
+9. Some popular array methods
+10. Anonymous function
+
+### Intermediate
+
+11. Window object
+12. Browser context API
+13. Stack
+14. Heap-memory
+15. Execution context
+16. Lexical environment
 17. foreach and forIn
-18. async await
-19. callback
-20. promise
+18. Async await
+19. Callback
+20. Promise
 21. setTimeout and setInterval
-22. first class function
-23. higher order function
-24. constructor function
-25. pure function
-26. prototype and prototypal inheritance
+22. First-class function
+23. Higher-order function
+24. Constructor function
+25. Pure function
+
+### Advanced
+
+26. Prototype and prototypal inheritance
 27. this keyword
 28. new keyword
-29. call bind apply
-30. closure
-31. methods that don't effect original array
+29. Call bind apply
+30. Closure
+31. Methods that don't affect the original array
+32. event-loop
+
+### Additional Topics
+
+33. Error handling (try, catch, throw)
+34. Event handling
+35. Document Object Model (DOM) manipulation
+36. Asynchronous programming patterns
+37. ES6+ features (arrow functions, template literals, destructuring, etc.)
+38. Webpack or other module bundlers
+39. Module system (CommonJS, ES modules)
+40. JSON (parsing, stringify)
+41. RESTful API and Fetch API
+42. Local Storage and Session Storage
+43. WebSockets
+44. Testing frameworks (e.g., Jest)
+45. Debugging techniques
+46. ESLint and code quality tools
+47. Frameworks and libraries (e.g., React, Vue, Angular)
