@@ -6,4 +6,4 @@
 29. Call bind apply
 30. Closure
 31. Methods that don't affect the original array
-32. event-loop
+32. event-loop 
