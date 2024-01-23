@@ -1,23 +1,12 @@
-1. keywords == done;
+### Basic
 
-2. variables == done;
-   Definition: A variable is a named storage location in a program that holds data,
-   it serves as a symbolic identifier for a value, allowing manipulation and retrieval during execution.
-   Variables have specific data types and can be updated, providing adaptability.
-   In mathematics, variables represent unknown or arbitrary values in equations and formulas
-
-There are total 3 type variable in JavaScript
-var = before ES6 + functional scope + non block scope + hoisted
-let = after ES6 in 2015 + block-scoped + none hoisted + can be update
-const = after ES6 in 2015 + block-scoped + none hoisted + can't be update
-
-3. hoisting == done;
-4. types == done;
-5. primitive vs reference == done;
-6. if else == done ;
-7. for loop & while loop == done:
-8. normal function == done;
-9. array == done;
-10. push pop shift un-shift splice == done;
-11. objects == done;
-12. anonymous function == pending;
+1. Variables: var, let, const  ✔
+2. Data types
+3. Primitive vs Reference
+4. Conditional operator
+5. For & While loop
+6. Normal function
+7. Arrays
+8. Objects
+9. Some popular array methods
+10. Anonymous function
