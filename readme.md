@@ -8,7 +8,7 @@ Welcome to the JavaScript Mastery Roadmap! In this exciting journey, you're set 
 
 ### Basic
 
-1. Variables: var, let, const
+1. Variables: var, let, const  ✔
 2. Data types
 3. Primitive vs Reference
 4. Conditional operator
