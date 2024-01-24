@@ -10,3 +10,7 @@ There are total 3 type variable in JavaScript
 3) const = after ES6 in 2015  +  block-scoped + none hoisted + can't be update
 
 */
+
+
+  
+  
