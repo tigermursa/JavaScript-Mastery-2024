@@ -1,21 +1,45 @@
 /*
-Find the smallest number of this array 😊
+Find the smallest & largest number of this array 😊
+a) make a function for that ✔
+b) use reduce
+c) use math function
 */
 
-const arr = [44, 32, 55, 33, 4, 23, 2, 66];
+const arr = [6, 8, 9, 4, 3, 23, 2, 5];
 
-function smallestOfTheArray(x) {
-  let smallest = x[0];
-  for (let i = 0; i < x.length; i++) {
-    if (x[i] < smallest) {
-      smallest = x[i];
+// solution a :
+
+const smallestAndLargestNumber = (a) => {
+  let smallest = a[0];
+  let largest = a[0];
+  for (let j = 0; j < a.length; j++) {
+    if (a[j] > largest) {
+      largest = a[j];
+    }
+    if (a[j] < smallest) {
+      smallest = a[j];
     }
   }
-  return smallest;
-}
+  return { smallest, largest };
+};
 
-const result = smallestOfTheArray(arr);
-console.log(result);
+console.log("by using function : ", smallestAndLargestNumber(arr));
 
-const smallestNumber = Math.min(...arr);
-console.log(smallestNumber);
+//solution b :
+
+const usingReduce = arr.reduce((min, current) =>
+  min < current ? min : current
+);
+const usingReduceLargest = arr.reduce((large, current) =>
+  large > current ? large : current
+);
+console.log("from reduce smallest :", usingReduce);
+console.log("from reduce largest :", usingReduceLargest);
+
+// solution c :
+//using math
+
+const small = Math.min(...arr);
+const large = Math.max(...arr);
+console.log("from Math Function smallest :", small);
+console.log("from Math Function largest :", large);
