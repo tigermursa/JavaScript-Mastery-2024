@@ -1,6 +1,6 @@
 /*
 Find the smallest & largest number of this array 😊
-a) make a function for that ✔
+a) make a function for that 
 b) use reduce
 c) use math function
 */
@@ -8,7 +8,7 @@ c) use math function
 const arr = [6, 8, 9, 4, 3, 23, 2, 5];
 
 // solution a :
-
+//using function
 const smallestAndLargestNumber = (a) => {
   let smallest = a[0];
   let largest = a[0];
@@ -26,7 +26,7 @@ const smallestAndLargestNumber = (a) => {
 console.log("by using function : ", smallestAndLargestNumber(arr));
 
 //solution b :
-
+//using reduce method
 const usingReduce = arr.reduce((min, current) =>
   min < current ? min : current
 );
@@ -37,7 +37,7 @@ console.log("from reduce smallest :", usingReduce);
 console.log("from reduce largest :", usingReduceLargest);
 
 // solution c :
-//using math
+//using math build in function
 
 const small = Math.min(...arr);
 const large = Math.max(...arr);
