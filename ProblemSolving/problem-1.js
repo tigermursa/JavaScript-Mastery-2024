@@ -22,16 +22,17 @@ Any arguments could be passed to the function but it should still always return 
 
 */
 
-var createHelloWorld = function () {
-  return function () {
-    return "Hello World";
+const createHelloWorld = () => {
+  return () => {
+    let value = "Hello World ✔";
+    return value;
   };
 };
 
-// Example usage 1:
-const f1 = createHelloWorld();
-console.log(f1());
+//Example 1:
 
-// Example usage 2:
-const f2 = createHelloWorld();
-console.log(f2({}, null, 42));
+const fn = createHelloWorld();
+const runFn = fn();
+console.log("1:", runFn);
+console.log("2:", fn({}, null, 45));
+//Example 2:
