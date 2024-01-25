@@ -1,5 +1,11 @@
 /*
-make a arrow function that will say the input number is odd or even;
+Write an arrow function called checkOddEven that takes a numerical input and returns a message 
+indicating whether the number is odd or even.
+The function should handle both positive and negative integers.
+
+console.log(checkOddEven(7)); // Output: 'Odd'
+console.log(checkOddEven(-4)); // Output: 'Even'
+console.log(checkOddEven(0)); // Output: 'Even'
 */
 
 const oddOrEven = (x) => {
