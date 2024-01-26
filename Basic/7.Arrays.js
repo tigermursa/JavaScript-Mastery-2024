@@ -5,10 +5,11 @@ const thisArray = {
   1: 6,
   2: 8,
   3: 10,
+  4: 11,
 };
 
 //normal Array :
-const nowLookLike = [4, 6, 8, 10];
+const nowLookLike = [4, 6, 8, 10, 11];
 
 console.log(thisArray[0]);
 console.log(nowLookLike[0]);
