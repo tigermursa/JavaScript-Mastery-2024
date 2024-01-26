@@ -6,5 +6,7 @@ functions that are called frequently, such as event handlers.
 
 Closures: To maintain the state of the last invocation time.
 setTimeout() and clearTimeout(): To manage the delay between function invocations.
-Higher-Order Functions: Returning a function from another function, creating a debounced version.
+Higher-Order Functions: Returning a function from another function, creating a debounced versions.
+
+
 */
