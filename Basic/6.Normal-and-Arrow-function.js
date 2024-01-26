@@ -31,3 +31,4 @@ Arrow functions do not have their own arguments object, which can be advantageou
 4)Implicit Return:
 Arrow functions allow for implicit return when the function body is a single expression, making the code more readable.
 */
+
