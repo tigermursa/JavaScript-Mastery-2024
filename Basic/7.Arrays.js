@@ -17,4 +17,4 @@ console.log(nowLookLike[0]);
 //An array in JavaScript is an ordered, indexed collection of values that can include various data types.
 
 const holyArray = ["Name", 45, true, undefined, null];
-console.log(holyArray[4]);  //so array can store these values , but should store
+console.log(holyArray[4]); //so array can store these values , but should store same type data
