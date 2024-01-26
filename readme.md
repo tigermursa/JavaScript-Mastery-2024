@@ -14,7 +14,7 @@ Welcome to the exciting journey of mastering JavaScript! In this adventure, my p
 4. Conditional operator ✔
 5. For & While loop ✔
 6. Normal function vs arrow function ✔
-7. Arrays
+7. Arrays ✔
 8. Objects
 9. Some popular array methods
 10. Anonymous function
