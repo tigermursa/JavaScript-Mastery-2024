@@ -8,14 +8,14 @@ Welcome to the exciting journey of mastering JavaScript! In this adventure, my p
 
 ### Basic
 
-1. Variables: var, let, const  ✔
+1. Variables: var, let, const ✔
 2. Data types ✔
 3. Primitive vs Reference ✔
 4. Conditional operator ✔
 5. For & While loop ✔
 6. Normal function vs arrow function ✔
 7. Arrays ✔
-8. Objects
+8. Objects ✔
 9. Some popular array methods
 10. Anonymous function
 
@@ -64,21 +64,3 @@ Welcome to the exciting journey of mastering JavaScript! In this adventure, my p
 45. Debugging techniques
 46. ESLint and code quality tools
 47. Frameworks and libraries (e.g., React, Vue, Angular)
-
-
-function createCounter(n) {
-    return function() {
-      return n++;
-    };
-  }
-  
-  // Example 1
-  let counter1 = createCounter(10);
-  let output1 = ["call", "call", "call","call"].map(() => counter1());
-  console.log(output1); // Output: [10, 11, 12]
-  
-  // Example 2
-  let counter2 = createCounter(-2);
-  let output2 = ["call", "call", "call", "call", "call"].map(() => counter2());
-  console.log(output2); // Output: [-2, -1, 0, 1, 2]
-  
