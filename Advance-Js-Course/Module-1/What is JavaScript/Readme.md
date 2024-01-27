@@ -49,3 +49,14 @@ errors before runtime.
 
 Means the execution of instructions happens in a single sequence.
 However, it can manage multitasking by leveraging browser APIs or, in the case of Node.js, utilizing our CPU threads.
+
+## Summary of the video
+
+1. JavaScript exhibits high abstraction.
+2. JavaScript features garbage collection.
+3. JavaScript undergoes JIT compilation.
+4. JavaScript follows a multi-paradigm approach.
+5. JavaScript support's functions are first-class functions.
+6. javaScript employs a prototype-based programming paradigm.
+7. javaScript Dynamically Typed.
+8. JavaScript operates as a single-threaded language.
