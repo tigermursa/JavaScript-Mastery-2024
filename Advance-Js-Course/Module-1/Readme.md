@@ -37,3 +37,12 @@ It means you can throw function anywhere you want.
 we can treat function as a variable. We can pass function as a parameter of a function.
 we can return function from inside of another function .This feature gives us a lot of flexibility while using function.
 
+#### Dynamically Typed:
+
+We don't need to specify the type of the variable on the declaration,
+because they decide the type on runtime .
+
+#### Single Threaded:
+
+Means the execution of instructions happens in a single sequence.
+But it can handle multitasking .
