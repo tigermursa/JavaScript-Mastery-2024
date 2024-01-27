@@ -23,9 +23,9 @@ So we can say js is a mix with interpreted and compiled
 
 Paradigm: Mindset of code structure which will determine your coding style.
 
-1.Procedural Programming
-2.OOP
-3.FP:Functional Programming
+1.Procedural Programming.
+2.OOP.
+3.FP:Functional Programming.
 
 ### Prototyped-based:
 
@@ -42,8 +42,10 @@ we can return function from inside of another function .This feature gives us a 
 
 We don't need to specify the type of the variable on the declaration,
 because they decide the type on runtime .
+But if we use typeScript then we have to specify the type so that we can prevent
+errors before runtime.
 
 ### Single Threaded:
 
 Means the execution of instructions happens in a single sequence.
-But it can handle multitasking .
+However, it can manage multitasking by leveraging browser APIs or, in the case of Node.js, utilizing our CPU threads.
