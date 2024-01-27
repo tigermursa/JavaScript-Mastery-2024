@@ -27,3 +27,13 @@ Paradigm: Mindset of code structure which will determine your coding style.
 3.FP:Functional Programming
 
 #### Prototyped-based:
+
+prototype is kind of blueprint ,Like we use array.map right?
+here js Array have Array.prototype.map , and Array's all methods like .pop .push etc in this prototype.
+
+#### Functions are first class citizen:
+
+It means you can throw function anywhere you want.
+we can treat function as a variable. We can pass function as a parameter of a function.
+we can return function from inside of another function .This feature gives us a lot of flexibility while using function.
+
