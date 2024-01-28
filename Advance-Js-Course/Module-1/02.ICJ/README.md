@@ -31,3 +31,5 @@ Compilation = Back end developer;
 JIT = Full stack developer 😎
 
 So, JavaScript uses JIT so that code can start immediately. When it needs optimization, it undergoes compilation. This is called JIT
+
+Interpreter > Profiler > Compiler > Optimizer > Bytecode
