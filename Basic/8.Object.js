@@ -52,3 +52,16 @@ const myPromise = new Promise((resolve, reject) => {
 const customError = new Error("This is a custom error.");
 });
 */
+
+// example of a constructor function
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Creating an instance of the Person constructor
+const person1 = new Person("John", 25);
+
+// Accessing properties of the instance
+console.log(person1.name); // Output: John
+console.log(person1.age); // Output: 25
