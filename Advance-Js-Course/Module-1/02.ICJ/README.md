@@ -23,3 +23,11 @@ JIT stands for Just-In-Time compilation. It's a hybrid approach that combines el
 Translation on-the-fly: With JIT compilation, the code is not translated all at once like in traditional compilation. Instead, portions of the code are translated into machine code as needed during program execution.
 
 Execution: The translated code is then executed. This allows for optimizations to be applied based on the actual usage patterns of the program.
+
+## Summary of the video
+
+Interpretation = Front end developer ;
+Compilation = Back end developer;
+JIT = Full stack developer 😎
+
+So, JavaScript uses JIT so that code can start immediately. When it needs optimization, it undergoes compilation. This is called JIT
