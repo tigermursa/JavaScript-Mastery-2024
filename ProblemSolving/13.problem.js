@@ -23,7 +23,7 @@ function findClosestTemperature(arr) {
 }
 
 // Example usage:
-const temperatures = [-8, -1, 3, 4, 5, 7,9,10,-5,5,6,7,8,9];
+const temperatures = [-8, -1, 3, 4, 5, 7,9,10,-5,5,6,7,8];
 const closestTemp = findClosestTemperature(temperatures);
 console.log("Closest Temperature:", closestTemp);
 
