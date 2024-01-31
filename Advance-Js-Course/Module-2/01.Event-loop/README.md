@@ -2,4 +2,4 @@
 
 ## Video - 1/6 :What The Heck Is An Event Loop?.
 
-### 
+### note is pending ...
