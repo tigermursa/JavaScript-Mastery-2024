@@ -9,7 +9,7 @@ const thisArray = {
 };
 
 //normal Array :
-const nowLookLike = [4, 6, 8, 10,1 ,2,4,];
+const nowLookLike = [4, 6, 8, 10,1 ,2];
 
 console.log(thisArray[0]);
 console.log(nowLookLike[0]);
