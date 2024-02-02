@@ -24,7 +24,9 @@ while the callback queue is used for larger, lower-priority tasks such as callba
 The event loop processes micro tasks before callbacks, ensuring that higher-priority tasks are executed promptly.
 Understanding this distinction is important for managing the order of execution in asynchronous JavaScript code.
 
-The micro task queue is for quick, important jobs like Promise callbacks. 
-The callback queue is for bigger, less urgent tasks like timer or I/O callbacks. 
-The event loop tackles micro tasks first, making sure important things happen fast. 
+The micro task queue is for quick, important jobs like Promise callbacks.
+The callback queue is for bigger, less urgent tasks like timer or I/O callbacks.
+The event loop tackles micro tasks first, making sure important things happen fast.
 Knowing this helps handle the order of execution in async JavaScript code
+
+## so Micro task = VIP , Callback = normal people
