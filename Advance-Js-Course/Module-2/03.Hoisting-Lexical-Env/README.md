@@ -16,17 +16,17 @@ Hoisting in JavaScript is like the language moving declarations (of variables an
 
 In simple terms, a lexical environment in JavaScript is like a storage box that keeps track of variables and their values based on where they are written in the code. It helps the computer understand and manage these variables.
 
-function greet() {
-var message = "Hello, ";
-console.log(message + name);
-}
-
-function sayHello() {
-var name = "Alice";
-greet();
-}
-
-sayHello();
+function greet(name) {
+    let message = "Hello, ";
+    console.log(message + name);
+  }
+  
+  function sayHello() {
+    let name = "Alice";
+    greet(name);
+  }
+  
+  sayHello();
 
 In this example, when sayHello is called, it creates a new lexical environment with its own variable name. When greet is called inside sayHello, it still has access to the lexical environment of sayHello, so it can use the name variable even though it's declared outside of the greet function. The lexical environment helps maintain the relationship between functions and their variables.
 
