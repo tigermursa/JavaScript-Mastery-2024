@@ -33,4 +33,32 @@ In this example, when sayHello is called, it creates a new lexical environment w
 #### If I had to describe a lexical environment in one word, I would say it's like a "context" or a "scope" in which variables are defined and can be accessed.
 
 #### So....
+
 A lexical environment in JavaScript is a context in which variables are declared and can be accessed. It captures the association between variable names and their values based on the code's structure and where the variables are defined.
+
+### what is Closure??
+
+A closure environment in JavaScript is like a "remembered" space where a function can still access variables even after the function has finished running. It "captures" and holds onto the variables it needs.
+
+function createCounter() {
+let count = 0;
+
+function increment() {
+count++;
+console.log(count);
+}
+
+return increment;
+}
+
+const counter = createCounter();
+
+counter(); // Outputs: 1
+counter(); // Outputs: 2
+counter(); // Outputs: 3
+
+In this example, createCounter creates a closure. The inner function increment "remembers" the count variable even after createCounter has finished executing. Each time counter is called, it continues to access and update the count variable within its closure.
+
+#### So..
+
+A closure is a mechanism in JavaScript that allows a function to retain access to variables from its outer scope, creating a sort of encapsulated environment even after the outer function has completed execution.
