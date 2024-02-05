@@ -3,4 +3,3 @@
 ## Video - 5/6 : Call(), Apply(), Bind(), And "This" Keyword.
 
 
-[1]
