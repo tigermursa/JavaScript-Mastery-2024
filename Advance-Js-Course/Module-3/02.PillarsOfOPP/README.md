@@ -2,4 +2,4 @@
 
 ## Video - 2/6 : Pillars Of OOP.
 
-[1,]
+[1,2]
