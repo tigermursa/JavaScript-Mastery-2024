@@ -2,3 +2,7 @@
 
 ## Video - 2/6 : Pillars Of OOP.
 
+### Abstraction
+### Encapsulation 
+### Inheritance
+### Polymorphism
