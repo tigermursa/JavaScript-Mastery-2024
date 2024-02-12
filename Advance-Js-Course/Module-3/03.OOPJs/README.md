@@ -1,6 +1,4 @@
-# Module 3 : Into the OOP
 
-## Video - 3/6 : OOP In JavaScript
 
 ### Object-oriented programming (OOP) in JavaScript means we organize our code by creating and using objects. Objects are like containers that hold information and actions.
 
