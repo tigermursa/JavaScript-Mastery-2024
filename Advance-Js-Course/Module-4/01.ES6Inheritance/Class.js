@@ -24,3 +24,5 @@ const Panda = new CarClass("BMW", 30, 2);
 console.log(Primo.totalProfit());
 //console.log(Panda.__proto__);
 CarClass.hi();
+
+//Therefore, the prototype in this context is CarClass.prototype
