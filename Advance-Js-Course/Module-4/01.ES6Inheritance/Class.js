@@ -12,7 +12,7 @@ const CarClass = class {
     return this.dam * this.totalStock;
   }
 
-  //static method ()
+  //static method (we can access this with Class name = CarClass.hi() but not with the proto)
   static hi() {
     console.log(" sorry I have computer");
   }
