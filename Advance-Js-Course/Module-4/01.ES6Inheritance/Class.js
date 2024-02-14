@@ -6,8 +6,21 @@ const CarClass = class {
     this.dam = price;
     this.totalStock = stock;
   }
+
+  //instance method
+  totalProfit() {
+    return this.dam * this.totalStock;
+  }
+
+  //static method ()
+  static hi() {
+    console.log(" sorry I have computer");
+  }
 };
 
-const Primo = new CarClass("Toyota", 30, 7);
+const Primo = new CarClass("Toyota", 3, 5);
+const Panda = new CarClass("BMW", 30, 2);
 
-console.log(Primo);
+console.log(Primo.totalProfit());
+//console.log(Panda.__proto__);
+CarClass.hi();
