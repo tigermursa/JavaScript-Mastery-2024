@@ -7,12 +7,12 @@ const CarClass = class {
     this.totalStock = stock;
   }
 
-  //instance method
+  //instance method(উদাহরণ)
   totalProfit() {
     return this.dam * this.totalStock;
   }
 
-  //static method (we can access this with Class name = CarClass.hi() but not with the proto)
+  //static method স্থির (we can access this with Class name = CarClass.hi() but not with the proto)
   static hi() {
     console.log(" sorry I have computer");
   }
