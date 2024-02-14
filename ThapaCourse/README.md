@@ -1,3 +1,3 @@
+## part -1 status
 
-## part -1
-# Hours 0 Min 0 /  Hours 11 Min 58
+# 1Hours-8Min / 11Hours-58Min
