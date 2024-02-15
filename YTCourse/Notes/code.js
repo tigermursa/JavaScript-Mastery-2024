@@ -21,6 +21,7 @@ console.log("MyString now:", typeof myString + ""); // number
 console.log("MyString now:", typeof (myString + "")); // string
 console.log("MyString now:", typeof myString.toString); // function
 console.log("MyString now:", typeof myString.toString()); // string
+
 /* all the falsy values
 1) 0 
 2) " "
