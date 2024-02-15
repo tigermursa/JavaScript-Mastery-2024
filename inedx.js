@@ -8,8 +8,10 @@ sum.call({ a: 10, b: 20 }, 30, 40);
 //this is apply method
 sum.apply({ a: 10, b: 20 }, [30, 40]);
 //this is bind method
-const theBindFunction = sum.bind({ a: 10, b: 20 }, 30, 40);
-theBindFunction()
+// const theBindFunction = sum.bind({ a: 10, b: 20 }, 30, 40);
+// theBindFunction()
+const theBindFunction = sum.bind({ a: 10, b: 20 });
+theBindFunction(30,40)
 
 // function sum2() {
 //   let theObj = {
