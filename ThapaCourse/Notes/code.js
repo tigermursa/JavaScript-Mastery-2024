@@ -99,3 +99,6 @@ console.log(isNaN(stringNine)); //true
 console.log(isNaN(stringNineButInsideNumber)); //false
 
 // !NaN === NaN, why is it false??
+
+console.log("mursalin" - "hossain"); //NaN
+console.log(true + true + true - false); //3 (1 + 1 + 1) - 0 true = 1 , false = 0
