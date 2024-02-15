@@ -25,3 +25,12 @@ console.log("Hi, I'm " + this.name + " and I'm " + this.age + " years old.");
 };
 
 person.introduce(); // Hi, I'm John and I'm 30 years old.
+
+
+this refers to the current execution context.
+In the global scope, it points to the global object (e.g., window in browsers).
+In a function, it depends on how the function is called.
+In an object method, it refers to the object itself.
+In a constructor function, it points to the newly created instance.
+In event handlers, it often points to the DOM element triggering the event.
+Explicit binding methods like call, apply, and bind can be used to set the this value explicitly.
