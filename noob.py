@@ -1,10 +1,22 @@
-name = "Mursalin Learning Python"
 
-a = 20/2j
-b = 10j
+a = 20.6
 
-c= a * b
+a = int(a) 
+a = float(a) 
+a = str(a) 
+a = bool(a) 
+print(a)
 
-e = c + a
+# 0 "" False None []
 
-print(type(a))
+#name = input("What is your name?")
+
+#print(name)
+# /n /t /b
+#raw string r
+# format string fcc
+
+age = 45
+address = "Dhaka"
+
+print(f"He is {age} years old and he is in {address}")
