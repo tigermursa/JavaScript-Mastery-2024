@@ -26,3 +26,7 @@ console.log(Mursalin)
 let students: string[] = ['Mursalin', "Meraz", "Dhaly"];
 
 console.log(students)
+
+//Tuple
+
+let myInfo:[string, number, boolean, undefined, string] = ["Babu", 25, true, undefined, "Dhaka"]
