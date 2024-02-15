@@ -31,8 +31,6 @@ console.log("MyString now:", typeof myString.toString()); // string
 6) NaN
 */
 
-
-
 var a = undefined;
 var b = null;
 var c = "false";
@@ -50,8 +48,8 @@ console.log(parseFloat(theString)); //45.96
 
 //Interesting..
 let theString2 = "000078";
-console.log(parseInt(theString2)); //78
-console.log(parseFloat(theString2)); //478
+console.log(parseInt(theString2)); // 78
+console.log(parseFloat(theString2)); // 78
 
 //using Math.floor and Math.ceil
 
@@ -60,7 +58,8 @@ console.log(Math.floor(numberOne)); //4
 console.log(Math.ceil(numberOne)); //5
 console.log(parseFloat(Math.ceil(numberOne))); //5
 
-//
+//make a function that will return
+
 function roundToNearestInteger(number) {
   return number % 1 >= 0.5 ? Math.ceil(number) : Math.floor(number);
 }
@@ -104,3 +103,7 @@ console.log(isNaN(stringNineButInsideNumber)); //false
 
 console.log("mursalin" - "hossain"); //NaN
 console.log(true + true + true - false); //3 (1 + 1 + 1) - 0 true = 1 , false = 0
+
+// undefine + undefine = ?
+
+console.log(undefined + undefined); //NaN
