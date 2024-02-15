@@ -107,3 +107,5 @@ console.log(true + true + true - false); //3 (1 + 1 + 1) - 0 true = 1 , false = 
 // undefine + undefine = ?
 
 console.log(undefined + undefined); //NaN
+
+
