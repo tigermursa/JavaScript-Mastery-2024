@@ -94,3 +94,8 @@ let stringNineButInsideNumber = "9";
 
 console.log(stringNine * numberNine); //NaN
 console.log(stringNineButInsideNumber * numberNine); //81
+console.log(isNaN(numberNine)); //false
+console.log(isNaN(stringNine)); //true
+console.log(isNaN(stringNineButInsideNumber)); //false
+
+// !NaN === NaN, why is it false??
