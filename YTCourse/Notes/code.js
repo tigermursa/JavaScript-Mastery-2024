@@ -24,12 +24,14 @@ console.log("MyString now:", typeof myString.toString()); // string
 
 /* all the falsy values
 1) 0 
-2) " "
+2) ""  // empty string
 3) false
 4) null
 5) undefine
-6)NaN
+6) NaN
 */
+
+
 
 var a = undefined;
 var b = null;
