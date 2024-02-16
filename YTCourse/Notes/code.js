@@ -137,3 +137,5 @@ let data = true;
 // let tell = 2 < 12 < 5 ??
 
 console.log(2<12<5);
+
+
