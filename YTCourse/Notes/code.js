@@ -108,4 +108,32 @@ console.log(true + true + true - false); //3 (1 + 1 + 1) - 0 true = 1 , false = 
 
 console.log(undefined + undefined); //NaN
 
+// var res = 0.1 + 0.2 ? 0.300000004
+var res = 0.1 + 0.2;
+console.log(res.toFixed(1)); //0.3
 
+// == vs ===
+
+let one = 4;
+let two = "4";
+
+if (one == two) {
+  console.log("we are same"); //true cuz == not check type
+}
+
+let person2 = {
+  age: 25,
+  haveLicense: true,
+};
+
+if (person2.age >= 18 && person2.haveLicense) {
+  console.log("let him go");
+} else {
+  console.log("sent jail");
+}
+
+let data = true;
+
+// let tell = 2 < 12 < 5 ??
+
+console.log(2<12<5);
