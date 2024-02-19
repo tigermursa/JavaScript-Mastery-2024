@@ -20,3 +20,8 @@ age = 45
 address = "Dhaka"
 
 print(f"He is {age} years old and he is in {address}")
+
+age = 45
+address = "Dhaka Banasress"
+
+print(f"He is {age} years old and he is in {address}")
