@@ -42,7 +42,7 @@ let a = 5,
   c = 7,
   d = 8;
 
-console.log(a, b, c, d);
+
 
 //function is a block of reusable code
  
