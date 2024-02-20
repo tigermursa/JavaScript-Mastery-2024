@@ -52,3 +52,5 @@ let names = function (f, l) { //! anonymous function
 
 const res = names(5,6)
 console.log(res);
+
+//!class done 
