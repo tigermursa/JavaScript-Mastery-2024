@@ -45,4 +45,10 @@ let a = 5,
 console.log(a, b, c, d);
 
 //function is a block of reusable code
- 
+
+let names = function (f, l) { //! anonymous function
+  return f + l;
+};
+
+const res = names(5,6)
+console.log(res);
