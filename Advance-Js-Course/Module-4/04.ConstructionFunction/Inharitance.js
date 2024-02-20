@@ -30,10 +30,4 @@ const mursalin = new Student("Mezba", 2000, "Science");
 console.log(mursalin.intro());
 //prototype inheritance
 
-Student.prototype.intro = function () {
-  return `I am ${this.name}`;
-};
 
-const mursalin = new Student("Mezba", 2000, "Science");
-
-console.log(mursalin.intro());
