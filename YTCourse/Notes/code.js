@@ -142,12 +142,4 @@ console.log(2<12<5);
 // for(;;){
 //   console.log(`Love u`);
 // }
-function theSum(yx){
-  let yx= 0;
-  for( let i = 1 ; i <= 10 ; i++){
-    yx =  yx + i;
-  }
-  return  yx;
-}
 
-console.log(theSum(1));
