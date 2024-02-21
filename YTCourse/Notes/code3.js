@@ -26,3 +26,19 @@ name2.push("Mue")
 console.log(name2);
 name2.splice(3,3,"Mursalin");
 console.log(name2);
+
+
+//indexOf
+
+const schools = ["hasanali", 'alamin', "mtripith"];
+
+function searchByAlphabet(array, alphabet) {
+  const results = array.filter(school => school.toLowerCase().startsWith(alphabet.toLowerCase()));
+  return results;
+}
+
+// Example: Searching for schools starting with 'a'
+const searchResults = searchByAlphabet(schools, 'mt');
+console.log(searchResults);
+
+// ! unique value new Set? 
