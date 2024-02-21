@@ -46,11 +46,25 @@ console.log(a, b, c, d);
 
 //function is a block of reusable code
 
-let names = function (f, l) { //! anonymous function
+let names = function (f, l) {
+  //! anonymous function
   return f + l;
 };
 
-const res = names(5,6)
+const res = names(5, 6);
 console.log(res);
 
-//!class done 
+// Reverse
+
+const isReverse = (str) => {
+  let reverse = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    reverse = reverse + str[i];
+  }
+  return reverse;
+};
+
+console.log(isReverse("HELLO"));
+
+let val = "WORLD";
+console.log(val.length);

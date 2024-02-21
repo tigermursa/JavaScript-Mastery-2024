@@ -17,7 +17,7 @@ Welcome to the exciting journey of mastering JavaScript! In this adventure, my p
 7. Arrays ✔
 8. Objects ✔
 9. Some popular array methods  
-10. Anonymous function
+10. Anonymous function ✔
 
 ### Intermediate
 
