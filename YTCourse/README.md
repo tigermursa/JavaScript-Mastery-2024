@@ -5,5 +5,7 @@
 # 3- 4Hours-6Min / 11Hours-58Min
 # 4- 5Hours-0Min / 11Hours-58Min
 # 5- 6Hours-0Min / 11Hours-58Min
+# 6- 7Hours-0Min / 11Hours-58Min
+# 6- 8Hours-0Min / 11Hours-58Min
 
 
