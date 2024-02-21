@@ -66,5 +66,8 @@ const isReverse = (str) => {
 
 console.log(isReverse("HELLO"));
 
-let val = "WORLD";
-console.log(val.length);
+
+
+// Palindrome
+
+
