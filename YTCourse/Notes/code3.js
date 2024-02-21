@@ -20,4 +20,9 @@ const name2 = ["hasan", "hossain", "lala"];
 //! forEach vs map
 // map return an array of value forEach don't
 
-const usingMap = name2.map((names) => console.log(names));
+//const usingMap = name2.map((names) => console.log(names));
+
+name2.push("Mue")
+console.log(name2);
+name2.splice(3,3,"Mursalin");
+console.log(name2);
