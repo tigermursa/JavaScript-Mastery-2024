@@ -25,31 +25,29 @@ Use: Check the status of your working directory and staging area.
 Example: git status
 
 ## git pull:
-
 Use: Fetch changes from a remote repository and merge them into the current branch.
 Example: git pull origin main
 
 ## git push:
-
 Use: Upload your local changes to a remote repository.
 Example: git push origin main
-## git branch [branch_name]:
 
+## git branch [branch_name]:
 Use: Create a new branch.
 Example: git branch feature-branch
-## git checkout [branch_name]:
 
+## git checkout [branch_name]:
 Use: Switch to a different branch.
 Example: git checkout feature-branch
-## git merge [branch_name]:
 
+## git merge [branch_name]:
 Use: Combine changes from another branch into your current branch.
 Example: git merge feature-branch
-## git log:
 
+## git log:
 Use: View a log of all commits.
 Example: git log
-## git remote -v:
 
+## git remote -v:
 Use: Show a list of remote repositories.
 Example: git remote -v
