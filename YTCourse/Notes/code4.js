@@ -33,8 +33,8 @@ for (let i = 0; i < productPrice.length; i++) {
 
 //console.log(total2);
 
-//! Index of
-let myName = "Babu";
+//! Index of <> lastIndexof
+let myName = "Babu is the top web developer";
 
 //console.log(myName.indexOf("n"));
 console.log(Array.from(myName));
