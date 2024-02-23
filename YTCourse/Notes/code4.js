@@ -21,7 +21,7 @@ const total = productPrice.reduce((acc, crt) => {
   // at the first here acc = 0, crt = 2
   return acc + crt; //then 2 +2 and 4 +2
 }, 2);
-console.log(total);
+//console.log(total);
 
 //! the loop behind the reduce method
 const productPrice2 = [2, 2];
@@ -31,4 +31,9 @@ for (let i = 0; i < productPrice.length; i++) {
   total2 += productPrice[i];
 }
 
-console.log(total2);
+//console.log(total2);
+
+
+//! Index of
+let myName = "Mursalin";
+console.log(myName.indexOf("n"));
