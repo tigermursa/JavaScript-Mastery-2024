@@ -16,14 +16,14 @@ const usingMapWith = numberArray.map((cn) => cn + 1);
 
 //! Reduce
 
-const productPrice = [2 + 2];
+const productPrice = [2, 2];
 const total = productPrice.reduce((acc, crt) => {
   return acc + crt;
 }, 2);
 console.log(total);
 
 //! the loop behind the reduce method
-const productPrice2 = [2 + 2];
+const productPrice2 = [2, 2];
 let total2 = 2;
 
 for (let i = 0; i < productPrice.length; i++) {
