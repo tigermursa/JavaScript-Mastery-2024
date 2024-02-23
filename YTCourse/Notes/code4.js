@@ -33,7 +33,8 @@ for (let i = 0; i < productPrice.length; i++) {
 
 //console.log(total2);
 
-
 //! Index of
-let myName = "Mursalin";
-console.log(myName.indexOf("n"));
+let myName = "Babu";
+
+//console.log(myName.indexOf("n"));
+console.log(Array.from(myName));
