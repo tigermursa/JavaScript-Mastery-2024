@@ -18,7 +18,8 @@ const usingMapWith = numberArray.map((cn) => cn + 1);
 
 const productPrice = [2, 2];
 const total = productPrice.reduce((acc, crt) => {
-  return acc + crt;
+  // at the first here acc = 0, crt = 2
+  return acc + crt; //then 2 +2 and 4 +2
 }, 2);
 console.log(total);
 
