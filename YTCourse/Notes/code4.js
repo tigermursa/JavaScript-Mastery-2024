@@ -37,8 +37,10 @@ for (let i = 0; i < productPrice.length; i++) {
 let myName = "Babu is the top web developer";
 
 //console.log(myName.indexOf("n"));
-console.log(Array.from(myName));
+//console.log(Array.from(myName));
 
-console.log(myName.search(/the/i));
+//console.log(myName.search(/the/i));
 
-//! pangramChecker 
+//! pangramChecker
+
+console.log(Math.round(Math.random() * 10));
