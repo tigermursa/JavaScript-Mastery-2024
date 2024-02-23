@@ -38,3 +38,5 @@ let myName = "Babu is the top web developer";
 
 //console.log(myName.indexOf("n"));
 console.log(Array.from(myName));
+
+console.log(myName.search(/the/i));
