@@ -44,3 +44,8 @@ let myName = "Babu is the top web developer";
 //! pangramChecker
 
 console.log(Math.round(Math.random() * 10));
+
+/*
+life
+
+*/
