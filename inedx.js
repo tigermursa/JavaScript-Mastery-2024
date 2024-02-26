@@ -7,4 +7,3 @@ let result =sayHello(8)
 console.log(result);
 console.log(result);
 console.log(result);
-console.log(result);
