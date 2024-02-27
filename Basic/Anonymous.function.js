@@ -13,7 +13,7 @@ const square2 = (num) => {
 };
 console.log("arrow function:", square2(2));
 
-//anonymous function
+//anonymous function (inside an object)
 
 const Obj = {
   myFunc: (num) => num * num,
