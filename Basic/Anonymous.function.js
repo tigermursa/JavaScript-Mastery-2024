@@ -30,4 +30,3 @@ An anonymous function in JavaScript is like a secret helper that doesn't have a 
 and is handy for quick tasks, kind of like a tool you use briefly and then put away
 */
 
-"hey I am back after long gap"
