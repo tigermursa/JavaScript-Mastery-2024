@@ -26,3 +26,9 @@ const person = {
 for (const i in person) {
   console.log(`${i}: ${person[i]}`);
 }
+
+// 4) FOR OF LOOP (used for iterating over iterable objects like arrays):
+const colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
