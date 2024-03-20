@@ -32,3 +32,10 @@ const colors = ["red", "green", "blue"];
 for (let color of colors) {
   console.log(color);
 }
+
+// forEach Loop (method for arrays)
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function (number) {
+  console.log(number);
+});
