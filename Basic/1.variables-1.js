@@ -26,3 +26,14 @@ There are total 3 type variable in JavaScript
 
 //console.log(scoping);
 // we can see from outside of the scope { } , but let const are block-scoped
+
+
+var myFan = "Click";
+let price = 3950;
+const date = "April 23-2024"
+
+
+
+console.log(myFan);
+console.log(price);
+console.log(newDate);
