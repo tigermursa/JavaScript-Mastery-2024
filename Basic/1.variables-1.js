@@ -1,5 +1,6 @@
 /*
  Definition: A variable is a named storage location in a program that holds data,
+ 
 it serves as a symbolic identifier for a value, allowing manipulation and retrieval during execution. 
 Variables have specific data types and can be updated, providing adaptability. 
 In mathematics, variables represent unknown or arbitrary values in equations and formulas

@@ -1,0 +1,78 @@
+Basic 
+Variables and Data Types
+Operators
+Control Structures
+Conditional Statements (if, else if, else)
+Loops (for, while, do...while)
+Functions
+Declaration
+Parameters
+Return values
+Arrow functions
+Arrays
+Declaration
+Indexing
+Methods (push, pop, shift, unshift, etc.)
+Objects
+Declaration
+Properties
+Methods
+Scope
+Global Scope
+Local Scope
+Block Scope (Introduced in ES6)
+DOM Manipulation
+Selecting Elements
+Modifying Elements
+Adding and Removing Elements
+Event Handling
+Asynchronous JavaScript
+Callbacks
+Promises
+Async/Await (Introduced in ES8)
+Error Handling
+try...catch
+throw
+Classes (Introduced in ES6)
+Constructors
+Methods
+Inheritance
+Modules (Introduced in ES6)
+Exporting
+Importing
+Regular Expressions
+JSON (JavaScript Object Notation)
+Parsing
+Stringifying
+Browser Storage
+Local Storage
+Session Storage
+Cookies
+AJAX (Asynchronous JavaScript and XML)
+Fetch API
+ECMAScript 6 (ES6) Features
+Arrow Functions
+Template Literals
+Destructuring Assignment
+Let and Const
+Spread and Rest Operator
+Default Parameters
+Classes
+Modules
+Promises
+Symbol
+Generators
+Proxy
+Set and Map
+ECMAScript 7 (ES7) and Beyond
+Includes()
+Exponential Operator (**) (ES7)
+Async/Await (ES8)
+Object.entries() and Object.values() (ES8)
+Shared Memory and Atomics (ES8)
+Optional Catch Binding (ES10)
+Nullish Coalescing Operator (??) (ES11)
+Logical Assignment Operators (||=, &&=, ??=) (ES2021)
+Private Methods and Fields (ES2022)
+
+Advanced 
