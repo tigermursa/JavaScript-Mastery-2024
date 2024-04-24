@@ -2,7 +2,7 @@
 // JAVA SCRIPT LOOPS
 // ############################
 
-//1) FOR LOOP
+//!1) FOR LOOP
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrayOfEven = [];
@@ -16,16 +16,24 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 
-console.log("Even", arrayOfEven);
-console.log("Odd", arrayOfOdd);
+// console.log("Even", arrayOfEven);
+// console.log("Odd", arrayOfOdd);
 
-// 2) WHILE LOOP
+//! 2) WHILE LOOP
 
 let i = 0;
-while (i <= 5) {
-  //console.log("while", i);
+while (i < arr.length) {
+  if (arr[i] % 2 === 0) {
+    arrayOfEven.push(arr[i]);
+  } else {
+    arrayOfOdd.push(arr[i]);
+  }
   i++;
 }
+ console.log("Even", arrayOfEven);
+ console.log("Odd", arrayOfOdd);
+
+
 
 // 3) FOR IN LOOP (used for iterating over object properties):
 const person = {
