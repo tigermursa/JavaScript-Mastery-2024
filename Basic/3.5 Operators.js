@@ -39,12 +39,19 @@ let t = --r; // 1 - 7
 let  p = 4 ;
 let q = p--; //  4 -1 = 3
 
-console.log(p); //3
-console.log(q); //4
+//console.log(p); //3
+//console.log(q); //4
 
 // Remainder % 
 
 let  w = 13;
 let remainder = w % 5;
 
-console.log(remainder);
+//console.log(remainder);
+
+
+//! using 
+
+for( let i = 0 ; i <=10 ; i++ ){
+    console.log(i);
+}
