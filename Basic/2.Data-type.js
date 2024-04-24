@@ -1,6 +1,7 @@
 /*
 
-There are mainly two type of data in JavaScript
+!There are mainly two type of data in JavaScript
+
 1)Primitive Data 
 2)Reference Data
 
@@ -16,6 +17,7 @@ Primitive Type data:
 Reference Type data:
 1)Array
 2)Object
+
 3)Date()
 4)Function
 5)map,set
@@ -27,3 +29,18 @@ that exceed the limitations of regular JavaScript numbers. It's important to not
 available for regular numbers are available for BigInt. For example, bitwise operations are not supported on BigInt
 
 */
+
+const myObj = {
+  name: "Mursalin Hossain",
+  country: "Bangladesh",
+  gmail: {
+    one: "mursalin@gmail.com",
+    two: "mue@gmail.com",
+  },
+};
+
+const newObj = { ...myObj };
+
+newObj.name = "updated";
+
+console.log(newObj);
