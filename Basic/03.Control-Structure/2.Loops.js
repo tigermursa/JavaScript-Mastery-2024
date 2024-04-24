@@ -4,16 +4,20 @@
 
 //1) FOR LOOP
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,10];
-const newArray = [];
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const arrayOfEven = [];
+const arrayOfOdd = [];
 
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
-    newArray.push(arr[i]);
+    arrayOfEven.push(arr[i]);
+  } else {
+    arrayOfOdd.push(arr[i]);
   }
 }
 
-console.log("for loop", newArray);
+console.log("Even", arrayOfEven);
+console.log("Odd", arrayOfOdd);
 
 // 2) WHILE LOOP
 
