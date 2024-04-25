@@ -4,6 +4,15 @@
 
 //!1) FOR LOOP
 
+/*
+format 
+for(let i = 0; i < 10 ; i++){
+  console.log(i)
+}
+
+
+*/
+
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrayOfEven = [];
 const arrayOfOdd = [];
@@ -21,6 +30,18 @@ for (let i = 0; i < arr.length; i++) {
 
 //! 2) WHILE LOOP
 
+/*
+format 
+
+let i = 0;
+while( i < 10 ){
+  console.log(i)
+   i++;
+}
+
+
+*/
+
 let i = 0;
 while (i < arr.length) {
   if (arr[i] % 2 === 0) {
@@ -30,10 +51,9 @@ while (i < arr.length) {
   }
   i++;
 }
- console.log("Even", arrayOfEven);
- console.log("Odd", arrayOfOdd);
 
-
+// console.log("Even", arrayOfEven);
+// console.log("Odd", arrayOfOdd);
 
 // 3) FOR IN LOOP (used for iterating over object properties):
 const person = {
@@ -42,15 +62,11 @@ const person = {
   city: "Dhaka Bangladesh",
 };
 
-for (const i in person) {
-  //console.log(`${i}: ${person[i]}`);
-}
+
 
 // 4) FOR OF LOOP (used for iterating over iterable objects like arrays):
 const colors = ["red", "green", "blue"];
-for (let color of colors) {
-  //console.log(color);
-}
+
 
 // forEach Loop (method for arrays)
 const numbers = [1, 2, 3, 4, 5];
