@@ -62,15 +62,20 @@ const person = {
   city: "Dhaka Bangladesh",
 };
 
-
+for (key in person) {
+  //console.log(person[key]);
+}
 
 // 4) FOR OF LOOP (used for iterating over iterable objects like arrays):
 const colors = ["red", "green", "blue"];
 
+for (parts of colors) {
+  //console.log(parts);
+}
 
 // forEach Loop (method for arrays)
 const numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(function (number) {
-  //console.log(number);
+  console.log(number +10);
 });
