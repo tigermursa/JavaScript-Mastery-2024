@@ -76,6 +76,13 @@ for (parts of colors) {
 // forEach Loop (method for arrays)
 const numbers = [1, 2, 3, 4, 5];
 
-numbers.forEach(function (number) {
-  console.log(number +10);
-});
+// numbers.forEach(function (number) {
+//   console.log(number +10);
+// });
+
+
+//! Arrow function
+
+numbers.forEach((num)=>{
+console.log(num +1);
+})

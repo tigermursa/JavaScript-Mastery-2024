@@ -53,5 +53,31 @@ let remainder = w % 5;
 //! using 
 
 for( let i = 0 ; i <=10 ; i++ ){
-    console.log(i);
+    //console.log(i);
 }
+
+//! =+
+
+let a = 6;
+//a = a + 2 ; = 8
+
+a += 2 ; // = 8
+
+//console.log(a);
+
+
+//! =-
+
+let b = 6;
+//b = a - 2 ; = 8
+
+b -= 2 ; // = 4
+
+//console.log(b);
+
+//! =*
+
+let c = 5 ;
+// c = c * 2;
+c *= 2
+console.log(c);
