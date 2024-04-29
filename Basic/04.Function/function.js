@@ -12,3 +12,4 @@ function sayMyName() {
 }
 
 sayMyName()
+sayMyName()
