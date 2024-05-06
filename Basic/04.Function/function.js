@@ -5,6 +5,7 @@ function sayMyName() {
 }
 
 sayMyName()
+sayMyName()
 
 // normal simple function
 function sayMyName() {
