@@ -12,4 +12,4 @@ function sayMyName() {
   console.log("Mursalin");
 }
 
-sayMyName()
+
